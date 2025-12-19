@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Welcome, Navbar, Dock } from "#components";
-import { Terminal } from "#windows";
+import { Terminal, Safari, Resume } from "#windows";
 import gsap from "gsap";
 import { Draggable } from "gsap/all";
 
@@ -14,6 +14,8 @@ function App() {
       <Welcome />
       <Dock />
       <Terminal />
+      <Safari />
+      <Resume />
     </main>
   );
 }

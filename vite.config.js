@@ -7,6 +7,7 @@ import { fileURLToPath } from "url";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
+    extensions: [".js", ".jsx", ".json"],
     alias: {
       "#components": resolve(
         dirname(fileURLToPath(import.meta.url)),
